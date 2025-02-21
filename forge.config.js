@@ -24,6 +24,18 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'Kax675',
+          name: 'hazel-demo-electron'
+        },
+        prerelease: true
+      }
+    }
+  ]
   plugins: [
     {
       name: '@electron-forge/plugin-auto-unpack-natives',
