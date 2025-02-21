@@ -35,7 +35,7 @@ module.exports = {
         prerelease: true
       }
     }
-  ]
+  ],
   plugins: [
     {
       name: '@electron-forge/plugin-auto-unpack-natives',
